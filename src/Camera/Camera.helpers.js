@@ -22,9 +22,9 @@ import {
   CAMERA_FOCUS_MODE,
 } from './Camera.constants'
 
-const upscaler = new Upscaler({
-  model: x2
-});
+// const upscaler = new Upscaler({
+//   model: x2
+// });
 
 export const getCameras = async ({
   setCameras,
@@ -265,8 +265,8 @@ export const takeCameraPhoto = async ({
     // setPhoto(imgFile)
 
     // const img = await getImgFromInput(imgFile)
-    const upscaledImage = await upscale(imgFile);
-    setPhoto(upscaledImage)
+    // const upscaledImage = await upscale(imgFile);
+    setPhoto(imgFile)
   } catch (ex) {
     console.log(ex)
     setPhoto(null)
