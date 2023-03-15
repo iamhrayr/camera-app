@@ -1,0 +1,35 @@
+{
+  "name": "vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@tensorflow/tfjs": "^4.2.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@upscalerjs/esrgan-medium": "^1.0.0-beta.9",
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21",
+    "piexifjs": "^1.0.6",
+    "platform": "^1.3.6",
+    "prop-types": "^15.8.1",
+    "upscaler": "^1.0.0-beta.16",
+    "web-vitals": "^2.1.4"
+
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0",
+    "gh-pages": "^4.0.0"
+  }
+}
